@@ -1,0 +1,38 @@
+.s-links__link-button
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.s-links__icon
+{
+  width: 32px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  background-clip: content-box;
+}
+
+.s-links__play-icon
+{
+  width: 0;
+  height: 0;
+  margin-right: -7px;
+  border: 7px solid white;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.s-links__label
+{
+  margin-left: 10px;
+}

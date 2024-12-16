@@ -1,0 +1,20 @@
+.pills ul
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.pills__item
+{
+  margin: 0 10px;
+  padding: 5px 15px;
+  background-color: var(--primary-color);
+  border-radius: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.pills__item:first-child
+{
+  margin-left: 0;
+}
